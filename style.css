@@ -1,0 +1,867 @@
+/* Style.css */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+    margin-bottom: 70px;
+    /* border: 1px solid white; */
+
+
+}
+
+/* mobile */
+[class*="col-"] {
+    width: 100%;
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    height: 800px;
+    /* border: 1px solid white; */
+}
+
+.logo {
+    width: 130px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.uppernav {
+    width: 100%;
+    /* border: 1px solid blue; */
+    font-size: 150%;
+    margin-top: 10px;
+    display: inline-block;
+    /* padding: 0px 5px; */
+}
+
+.welcome {
+    float: left;
+    margin-left: 10px;
+}
+
+.upperthree {
+    float: right;
+    /* border: 1px solid yellow; */
+}
+
+.img1 {
+    width: 30px;
+    height: auto;
+    /* background-color: white; */
+    /* border: 1px solid green; */
+    margin: 0px 5px;
+}
+
+#img1 {
+    width: 25px;
+    margin-right: 20px;
+}
+
+.lowernav {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    /* border: 1px solid blue; */
+}
+
+.navbtn1 {
+    width: 90px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color: #222;
+    font-size: 80%;
+    margin-right: 10px;
+}
+
+.navbtn2 {
+    width: 180px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color: #222;
+    font-size: 80%;
+}
+
+.container0 {
+    /* border: 1px solid blue; */
+    margin-left: 0px;
+    padding: 0px;
+    float: left;
+}
+
+
+.box1 {
+
+    margin-top: 5px;
+    border-radius: 10px;
+    /* border: 1px solid blue; */
+    background-color: #222;
+}
+
+.box11 {
+    /* background-color: #222; */
+    /* border: 1px solid red; */
+    padding: 5px 0px;
+    margin-bottom: 5px;
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.box12 {
+    background-color: #222;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 5px 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.box11name {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: auto;
+    margin-left: 15%;
+}
+
+.img7 {
+    width: 30px;
+    margin-left: 5px;
+}
+
+
+
+.container1 {
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.item {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+
+.item1 {
+    width: 45%;
+    height: 60px;
+    /* border: 1px solid blue; */
+    border-radius: 5px;
+    background-color: #222;
+    display: flex;
+}
+
+
+
+.item12 {
+    width: 100%;
+    display: flex;
+    /* border: 1px solid white; */
+}
+
+.itemname {
+    /* border: 1px solid red; */
+    font-size: 70%;
+    /* text-align: center; */
+    color: white;
+    margin: auto 20px;
+}
+
+.img2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px 0px 0px 5px;
+    /* border-radius: 5px 0px 0px 5px; */
+}
+
+.upperofcontainer2 {
+    margin: 10px 0px 2px 0px;
+    padding-left: 15px;
+    font-size: 20px;
+    /* border: 1px solid red; */
+}
+
+.container2 {
+    padding: 5px 5px;
+    border: 2px solid red;
+    margin-top: 0px;
+    margin-right: 10px;
+    display: flex;
+    overflow-x: scroll;
+    scroll-margin-top: 10px;
+}
+
+/* .container2::-webkit-scrollbar {
+    width: 0px;
+} */
+
+.card {
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    background-color: #222;
+    margin: 0px 10px;
+}
+
+
+#card1 {
+    margin-left: 3px;
+    padding-bottom: 2px;
+}
+
+.audio1{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+}
+
+#kasoorheight {
+    height: 145px;
+}
+
+.img3 {
+    width: 145px;
+    height: auto;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.cardname {
+    font-size: 90%;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.footer {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    bottom: 0px;
+    /* border: 1px solid red; */
+}
+
+.footerplayer {
+    /* border: 1px solid red; */
+    height: 50px;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 5px 0px;
+
+}
+.footerplayersong{
+    display: flex;
+    justify-self: center;
+}
+
+
+.img5 {
+    width: 35px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.playersongdetail {
+    margin: auto;
+    margin-left: 5px;
+    /* border: 1px solid white; */
+}
+
+.playersongname1 {
+    color: white;
+    font-size: 12px;
+}
+
+.playersongname2 {
+    /* text-align: center; */
+    color: white;
+    font-size: 10px;
+}
+
+.playericons {
+    margin-right: 10px;
+}
+
+.footer2 {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #000;
+    display: flex;
+    padding: 5px 5px;
+
+}
+
+.img4 {
+    width: 30px;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+
+.img6 {
+    width: 25px;
+    margin: 10px auto;
+    margin-right: 10px;
+
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+
+/* mobile.css */
+
+@media screen and (max-width:480px) {
+    .logo{
+      display: none;
+    }
+    .container0{
+      display: none;
+    }
+  
+    /* sdfsdfas */
+    .main{
+        /* border: 1px solid white; */
+        padding: 0px;
+    }
+    .middle{
+        padding: 0px;
+        /* border: 1px solid red; */
+    }
+    .navcon1{
+      display: none;
+    }
+    .container3{
+      display: none;
+    }
+    .welcommid{
+      display: none;
+    }
+  
+  }
+
+
+
+
+
+
+  /* tablet.css */
+  @media screen and (min-width:481px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    .logo{
+        display: block;
+    }
+    .welcome{
+        margin-left: 20px;
+    }
+    .main{
+        /* border: 1px solid red; */
+        margin-top: 10px;
+        padding-top: 0px;
+    }
+    
+    .container1{
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-left: -10px;
+        /* border: 1px solid blue; */
+        
+    }
+
+    .container0{
+        display: block;
+        margin-top: 0px;
+    }
+    .box2{
+        padding-bottom: 1px;
+        margin-top: 8px;
+        background-color: #222;
+        border-radius: 10px;
+    }
+    
+    .library{
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .libraryimg{
+        max-width: 30%;
+        height: 30px;
+        font-size: 90%;
+        margin-left: 5px;
+    }
+    .libraryname{
+        margin-left: -10px;
+    }
+    .libraryicon1{
+        margin-right: 10px;
+    }
+    .middle{
+        /* border: 1px solid red; */
+        padding: 0px;
+    }
+    .img3{
+        width: 170px
+    }
+    #kasoorheight{
+        height: 170px;
+    }
+
+    .box21{
+        margin-top: 15px;
+        /* border: 1px solid red; */
+    }
+
+    .box211{
+        /* border: 1px solid blue; */
+        display:flex;
+        margin: 0px 5px;
+        background-color: #333;
+        border-radius: 5px;
+        margin-bottom: 8px;
+    }
+    .img9{
+        width: 60px;
+        border-radius: 5px 0px 0px 5px;
+    }
+    .box211name{
+        /* border: 1px solid red; */
+        text-align: center;
+        margin: auto;
+    }
+
+    #logol{
+        display: none;
+    }
+    .navcon1{
+        display: none;
+    }
+
+    .container3{
+        display: none;
+    }
+
+    .middlemaincon{
+        /* border: 1px solid white; */
+        overflow-y:scroll;
+        height: 500px;
+    }
+    .middlemaincon::-webkit-scrollbar{
+        width: 0px;
+    }
+
+    .welcommid{
+        display: none;
+    }
+
+    .footer{
+        height: 70px;
+        margin-bottom: 0px;
+    }
+    .footerplayer{
+        height: 70px;
+        padding: 10px 0px;
+    }
+    .img5{
+        width: 55px;
+    }
+    .footer2{
+        display: none;
+    }
+
+    .navbtn1:hover {
+        background-color: #333;
+    }
+    
+    .navbtn2:hover {
+        background-color: #333;
+    }
+    .item1:hover {
+        background-color: #333;
+    }
+    .card:hover {
+        background-color: #333;
+        transform: scale(1.03);
+    }
+    
+    .box11:hover{
+        background-color: #333;
+    }
+    .box12:hover{
+        background-color: #333;
+    }
+    .box211:hover{
+        background-color: #444;
+    }
+    .follower:hover{
+        background-color: #444;
+    }
+
+
+
+}
+
+
+
+
+
+/* Laptop.css */
+@media screen and (min-width:1025px) {
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+
+    body {
+        background-color: #111;
+    }
+
+    #logom {
+        display: none;
+    }
+
+    #logol {
+        width: 100%;
+        /* border: 1px solid rgb(243, 0, 0); */
+        display: flex;
+        padding-left: 0;
+    }
+
+    .uppernav {
+        display: none;
+    }
+
+    .lowernav {
+        display: none;
+    }
+
+    .main {
+        /* border: 1px solid red; */
+        padding-top: 0px;
+    }
+
+    #logol {
+        /* border: 1px solid red; */
+        margin-bottom: 15px;
+    }
+    
+    .logoimgl {
+        /* border: 1px solid red; */
+        width: 200px;
+        margin: 0px;
+    }
+
+    .box1 {
+        clear: both;
+    }
+
+    .middle{
+        /* border: 1px solid red; */
+        position: relative;
+        padding: 0px 10px;
+        margin-top: 5px;
+    }
+
+    .conbackground {
+        background-image: linear-gradient(rgb(90, 0, 0), black 60%);
+        position: relative;
+        padding-bottom: 10px;
+        border-radius: 8px;
+    }
+
+    #middlemainicon{
+        overflow-y: scroll;
+        height: 500px;
+        /* border: 1px solid white; */
+    }
+    #middlemainicon::-webkit-scrollbar{
+        width: 0px;
+    }
+    .itemname{
+        font-size: 90%;
+    }
+    .container0{
+        padding: 0px 5px;
+    }
+
+    .navcon1 {     
+        /* border: 1px solid red; */
+        /* margin: 10px; */
+        padding: 3px 0px;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top:0px;
+        background-color: rgb(85, 0, 0);
+        border-radius: 8px 8px 2px 2px;
+    }
+
+
+    .connavbtn1 {
+        /* border: 1px solid white; */
+        float: left;
+        margin-left: 10px;
+        font-size: 120%;
+        padding: 0px;
+        margin-top: 2px;
+    }
+
+    .previous {
+        width: 30px;
+        height: 30px;
+        color: black;
+        border-radius: 50%;
+        border: none;
+    }
+
+    .next {
+        width: 30px;
+        height: 30px;
+        color: black;
+        border-radius: 50%;
+        border: none;
+    }
+
+    .connavbtn2 {
+        /* border: 1px solid white; */
+        margin-right: 20px;
+        padding-top: 3px;
+    }
+    
+    .upgrade{
+        width: 80px;
+        height: 30px;
+        border-radius: 30px;
+        border: none;
+        color: black;
+        float: left;
+        margin-right: 10px;
+    }
+    .b{
+        color: black;
+    }
+
+    .profile {
+        width: 30px;
+        border-radius: 50%;
+        margin-right: 8px;
+    }
+
+    .settings {
+        width: 30px;
+    }
+
+    .welcommid{
+        display: block;
+        font-size: 20px;
+        margin: 10px 0px 3px 10px;
+    }
+
+    .container3 {
+        display: block;
+        /* border: 1px solid red; */
+        border-radius: 8px;
+        margin-top: 5px;
+        background-color: #222;
+    }
+
+    .factivity{
+        /* border: 1px solid red; */
+        padding-top: 0px;
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .activity{
+        /* border: 1px solid red; */
+        font-size: 20px;
+    }
+    .btnaddfrnd{
+        width: 20px;
+        color: white;
+        border: none;
+        background-color: #222;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    .aboutf{
+        /* border: 1px solid red; */
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    .followers{
+        /* border: 1px solid red; */
+        margin-top: 10px;
+        background-color: #222;
+    }
+    .follower{
+        /* border: 1px solid red;/ */
+        background-color: #333;
+        margin-top: 10px;
+        display: flex;
+        border-radius: 5px;
+        padding: 4px 0px;
+        padding-left: 5px;
+    }
+    
+
+    .img8{
+        width: 55px; height: 55px;
+        border-radius: 50%;
+        margin-left: 0px;
+
+    }
+
+    .frienddetails{
+        /* border: 1px solid white; */
+        display: block;
+        margin: auto;
+
+    }
+
+    .settingscon3{
+        /* border: 1px solid red; */
+        margin-top: 20px;
+    }
+
+    .settingbtn{
+        width: 90px;
+        height: 30px;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .b1{
+        color: black;
+        margin: auto;
+    }
+
+    .footer{
+        height: 70px;
+        margin-bottom: 0px;
+    }
+    .footerplayer{
+        height: 70px;
+        padding: 10px 0px;
+    }
+    .img5{
+        width: 55px;
+    }
+    .footer2{
+        display: none;
+    }
+
+    .navbtn1:hover {
+        background-color: #333;
+    }
+    
+    .navbtn2:hover {
+        background-color: #333;
+    }
+    .item1:hover {
+        background-color: #333;
+    }
+    .card:hover {
+        background-color: #333;
+        transform: scale(1.03);
+    }
+    
+    .box11:hover{
+        background-color: #333;
+    }
+    .box12:hover{
+        background-color: #333;
+    }
+    .box211:hover{
+        background-color: #444;
+    }
+    .follower:hover{
+        background-color: #444;
+    }
+}
